@@ -12,6 +12,7 @@ Student: [Evgeniy_Krupen](https://upsa.epam.com/workload/employeeView.do?employe
 $ yum install puppet
 
 I created manifest for nginx with content:
+
 package { 'nginx':
         ensure=>'installed'
 }
