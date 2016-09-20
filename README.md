@@ -43,14 +43,14 @@ $ yum install puppetserver (for server) puppet (cor client)
 
 checked on server : - facter fqdn
 
-on client:
+**on client:**
 
 
 1. In /etc/hosts -> 192.168.25.100 chef-server chef-server.minsk.epam.com
 2. Puppet agent -t --server chef-server.minsk.epam.com --waitforcert 60 --test
 ![](https://github.com/evgeniy-krupen/lesson11/blob/master/source/p1.png)
 
-on server:
+**on server:**
 
 puppet cert --list - I saw request
 
