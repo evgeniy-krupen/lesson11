@@ -29,6 +29,8 @@ notify { 'Nginx is running.':
 
 $ puppet parser validate ~/first_manifest.pp
 
+$ puppet apply ~/first_manifest.pp
+
 **3. I set up 2 VM by [vagrant](https://github.com/evgeniy-krupen/lesson11/blob/master/Vagrantfile)**
 
 for puppet server - 4096 MB RAM,
